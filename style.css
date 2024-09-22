@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #ff6347;
+}
+
+/* Home Section */
+#home {
+    background: url('./Image/p6.avif') no-repeat center center/cover;
+    background-color: cadetblue;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.home-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 8px;
+}
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.home-content p {
+    font-size: 1.25rem;
+}
+
+#about{
+    background: url('/Image/p5.jpg') no-repeat center center/cover;
+    color: white;
+}
+#contact{
+    background: url('/Image/p8.jpg') no-repeat center center/cover;
+    color: white;   
+}
+/* Projects Cards */
+.projects-section {
+    padding: 60px 0;
+}
+.projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.project-card {
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+.project-card img {
+    border-bottom: 1px solid #ddd;
+}
+.project-card .card-body {
+    padding: 20px;
+}
+.project-card .card-title {
+    font-size: 1.25rem;
+}
+.project-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+.contact-form .btn-primary {
+    width: 100%;
+}
+.contact-form .alert {
+    display: none; /* Hidden by default */
+}
+
+/* Footer Social Links */
+.social-links a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ff6347;
+}
